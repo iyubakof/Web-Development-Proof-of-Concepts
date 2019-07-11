@@ -1,0 +1,126 @@
+body{
+	background-color: #3E4DC9;
+	text-align: center;
+}
+
+.title{
+	text-align: center;
+	color: white;
+}
+
+/*PLAY button*/
+.play{
+	/*margin: 0 auto;*/
+	margin: 0 200px;
+	text-align: center;
+	display: block;
+	padding: 0.5 em;
+	background-color: red;
+	border-color: black;
+	border: solid;
+	border-width: 3px;
+	color:white;
+	font-weight:bold;
+}
+
+/*parent box*/
+#parent{
+	width: 500px;
+	height: 450px;;
+	margin-left: auto;
+	margin-right: auto;
+	z-index 1;
+	position: relative;
+	background-color: white;
+}
+
+/*timer*/
+.time{
+	width: 10px;
+	border: none;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#hh{
+	margin-left: 1em;
+}
+
+/*end button*/
+#end{
+	float: right;
+	margin-right: 1em;
+	margin-top: 1em;
+}
+
+/*undo button*/
+#undo{
+	margin-left: 1em;
+	margin-top: 1em;
+	visibility: hidden;
+}
+
+#box{
+	margin-top: 1em;
+}
+
+.terms{
+	float: left;
+	width: 50%;
+	margin: 0 0 0 1em;
+	width: 200px;
+	height: 375px;;
+	background-color: #7D8AFF;
+	font-size: 0.9em;
+}
+
+.def{
+	width: 50%;
+	height: 375px;
+	margin: 0 1em 0 0;
+	float:right;
+	background-color: #7D8AFF;
+	font-size: 0.7em;
+}
+
+.t{
+	padding: 0.5em 1.5em 1.5em 1em;
+	margin: 0.5em 2.5em 0.5em 4em;
+	background-color: gray;
+	border: 2px solid black;
+	width: 20%;
+	height: 1.8em;
+	color: white;
+	cursor: grab;
+}
+
+.d{
+	float: left;
+	padding: 0.5em 1em 2em 1em;
+	background-color: gray;
+	border: 2px solid black;
+	width: 20%;
+	height: 1em;
+	margin-right: 0.8em;
+	margin-bottom: 0.8em;
+	color: white;
+	cursor: grab;
+}
+
+.defBox{
+	padding: 0.8em;
+	height: 4em;
+	width: 80%;
+	margin: 0.5em;
+	background-color: white;
+	border: solid;
+	border-width: 1px;
+}
+
+#score{
+	margin: 1em 0 0 1em;
+	border: solid;
+	border-width: 2px;
+	bordercolor: black;
+	width: 200px;
+}

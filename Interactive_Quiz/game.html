@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+		<meta name="author" content="Yvonne Ubak" />
+		
+		<title>Interactive Quiz!</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div id='bg'>
+			<h1 class="title">Interactive Quiz!</h1>
+			<div id='parent'>
+				<label id='hh' class='time'></label>:
+				<label id='mm' class='time'></label>:
+				<label id='ss' class='time'></label><br/>
+				<input type="button" id="undo" value="UNDO"></input>
+				<input type="button" id="end" value="END"></input>
+				<div id="box"></div>
+					<div class="terms">
+						<br />
+						<div class = 't' id="term1" ondrop="drop(event)" ondragover="allowDrop(event)">
+							<p id="t1" draggable="true" ondragstart="drag(event)"></p>
+						</div>
+						<div class = 't' id="term2" ondrop="drop(event)" ondragover="allowDrop(event)">
+							<p id="t2" draggable="true" ondragstart="drag(event)"></p>
+						</div>
+						<div class = 't' id="term3" ondrop="drop(event)" ondragover="allowDrop(event)">
+							<p id="t3" draggable="true" ondragstart="drag(event)"></p>
+						</div>
+						<div class = 't' id="term4" ondrop="drop(event)" ondragover="allowDrop(event)">
+							<p id="t4" draggable="true" ondragstart="drag(event)"></p>
+						</div>
+						<div class = 't' id="term5" ondrop="drop(event)" ondragover="allowDrop(event)">
+							<p id="t5" draggable="true" ondragstart="drag(event)"></p>
+						</div>
+					</div>
+					<div class="def">
+						<br />
+						
+						<div class="defBox">
+							<div class ='d' id="d1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+							<p id='def1'></p>
+						</div>
+						
+						<div class="defBox">
+							<div class ='d' id="d2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+							<p id='def2'></p>
+						</div>
+						
+						<div class="defBox">
+							<div class ='d' id="d3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+							<p id='def3'></p>
+						</div>
+						
+						<div class="defBox">
+							<div class ='d' id="d4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+							<p id='def4'></p>
+						</div>
+						
+						<div class="defBox">
+							<div class ='d' id="d5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+							<p id='def5'></p>
+						</div>
+					</div>
+			</div>
+		</div>
+	</body>
+</html>
